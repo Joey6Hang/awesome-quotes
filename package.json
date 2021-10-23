@@ -1,0 +1,42 @@
+{
+  "name": "awesome-quotes",
+  "version": "1.0.0",
+  "description": "Awesome Quotes is a mobile first web app where you can browse or share your best discussions and punchlines!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js -e .hbs,.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmarcramos/awesome-quotes.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "fun",
+    "quotes",
+    "nodejs",
+    "javascript",
+    "hbs",
+    "friends",
+    "punchlines",
+    "quotes",
+    "social"
+  ],
+  "author": "Marc Ramos, Paul Priveron, Joey Hang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitmarcramos/awesome-quotes/issues"
+  },
+  "homepage": "https://github.com/gitmarcramos/awesome-quotes#readme",
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "multer-storage-cloudinary": "^4.0.0"
+  }
+}
